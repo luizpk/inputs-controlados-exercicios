@@ -2,7 +2,6 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import MainPage from "./Components/MainPage/MainPage";
 import styled, {createGlobalStyle} from 'styled-components'
-
 const GlobalStyles = createGlobalStyle`
   * {
     margin: 0;
@@ -15,6 +14,7 @@ const Container = styled.div`
   flex-direction: column;
   height: 100vh;
 `
+
 function App() {
   return (
     <>
@@ -27,5 +27,4 @@ function App() {
     </>
   );
 }
-
 export default App;
